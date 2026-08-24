@@ -17,7 +17,7 @@ class DriveSyncWorker(
     override suspend fun doWork(): Result {
         val sharedPrefs = applicationContext.getSharedPreferences("gdrive_music_prefs", Context.MODE_PRIVATE)
         val folderId = sharedPrefs.getString("folder_id", "1-mRwu6GyYVIX_AJYI2dP-HtY6Hoip3Zd") ?: "1-mRwu6GyYVIX_AJYI2dP-HtY6Hoip3Zd"
-        val apiKey = sharedPrefs.getString("api_key", null)
+        val apiKey = sharedPrefs.getString("api_key", "AIzaSyDao07CoaqI09Mo9zsR2NzmGoH8XBaCqMY")
         val accessToken = sharedPrefs.getString("access_token", null)
 
         val db = AppDatabase.getDatabase(applicationContext)

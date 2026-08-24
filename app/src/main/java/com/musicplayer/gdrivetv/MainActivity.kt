@@ -81,7 +81,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             GDriveMusicTVTheme {
                 val folderId = sharedPrefs.getString("folder_id", "1-mRwu6GyYVIX_AJYI2dP-HtY6Hoip3Zd") ?: "1-mRwu6GyYVIX_AJYI2dP-HtY6Hoip3Zd"
-                val apiKey = sharedPrefs.getString("api_key", "") ?: ""
+                val apiKey = sharedPrefs.getString("api_key", "AIzaSyDao07CoaqI09Mo9zsR2NzmGoH8XBaCqMY") ?: "AIzaSyDao07CoaqI09Mo9zsR2NzmGoH8XBaCqMY"
 
                 MainScreen(
                     currentScreen = currentScreen,
