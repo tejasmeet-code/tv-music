@@ -46,14 +46,9 @@ if [ ! -d "$GRADLE_HOME" ]; then
     rm "/Users/tejas.dhanoa/local_tools/gradle-8.0-bin.zip"
 fi
 
-# 5. Generate Gradle Wrapper
-echo "Initializing Gradle Wrapper..."
-cd /Users/tejas.dhanoa/tv-music-ref
-$GRADLE_HOME/bin/gradle wrapper --gradle-version 8.0
-
-# 6. Build Debug APK
+# 5. Build Debug APK (Run local gradle directly to bypass wrapper downloads)
 echo "Compiling Android TV App APK..."
-./gradlew assembleDebug
+$GRADLE_HOME/bin/gradle assembleDebug
 
 echo "=== BUILD SUCCESSFUL ==="
 echo "Your downloadable APK is ready at:"
