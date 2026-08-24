@@ -39,4 +39,9 @@ interface PlaylistDao {
         ORDER BY songs.title ASC
     """)
     suspend fun getSongsInPlaylistList(playlistId: Long): List<SongEntity>
+    @Query("""
+        SELECT COUNT(*) FROM playlist_song_cross_ref 
+        WHERE songId = :songId
+    """)
+    suspend fun getPlaylistCountForSong(songId: String): Int
 }

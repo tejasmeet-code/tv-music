@@ -71,16 +71,8 @@ class DriveSyncWorker(
                 songDao.insertSongs(songsToInsert)
             }
 
-            // 5. Trigger Download Worker for non-downloaded songs
-            val songsToDownload = songDao.getAllSongsList().filter { !it.isDownloaded }
-            val workManager = WorkManager.getInstance(applicationContext)
-            
-            for (song in songsToDownload) {
-                val downloadRequest = OneTimeWorkRequestBuilder<DownloadWorker>()
-                    .setInputData(workDataOf("song_id" to song.id))
-                    .build()
-                workManager.enqueue(downloadRequest)
-            }
+            // 5. Trigger Download Worker disabled for pure cloud streaming playback
+            // (no files saved to local storage)
 
             return Result.success()
         } catch (e: Exception) {

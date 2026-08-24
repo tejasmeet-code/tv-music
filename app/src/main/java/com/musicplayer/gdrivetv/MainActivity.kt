@@ -140,6 +140,9 @@ class MainActivity : ComponentActivity() {
             }
         }
 
+        // Run cache cleanup on startup
+        cleanupLocalCache()
+
         // Start progress tracking routine
         startProgressTracker()
     }
@@ -176,8 +179,8 @@ class MainActivity : ComponentActivity() {
         val controller = mediaController ?: return
         currentSong = song
 
-        // Media Item Configuration: Use local file if downloaded, else use streaming GDrive URL
-        val mediaUri = if (song.isDownloaded && song.localFilePath != null) {
+        // Media Item Configuration: Use local file if cached, otherwise stream from Drive
+        val mediaUri = if (song.isDownloaded && song.localFilePath != null && java.io.File(song.localFilePath).exists()) {
             song.localFilePath
         } else {
             song.gdriveUrl
@@ -246,10 +249,27 @@ class MainActivity : ComponentActivity() {
 
     private fun deletePlaylist(playlist: PlaylistEntity) {
         lifecycleScope.launch {
+            val songsInPlaylist = db.playlistDao().getSongsInPlaylistList(playlist.id)
             db.playlistDao().deletePlaylist(playlist)
             if (selectedPlaylist?.id == playlist.id) {
                 selectedPlaylist = null
                 selectedPlaylistSongs = emptyList()
+            }
+            
+            // Clean up cached files for songs no longer in any playlists
+            for (song in songsInPlaylist) {
+                val count = db.playlistDao().getPlaylistCountForSong(song.id)
+                if (count == 0) {
+                    withContext(Dispatchers.IO) {
+                        song.localFilePath?.let { path ->
+                            val file = java.io.File(path)
+                            if (file.exists()) {
+                                file.delete()
+                            }
+                        }
+                    }
+                    db.songDao().updateDownloadStatus(song.id, null, false)
+                }
             }
         }
     }
@@ -267,26 +287,64 @@ class MainActivity : ComponentActivity() {
         val playlist = selectedPlaylist ?: return
         lifecycleScope.launch {
             db.playlistDao().removeSongFromPlaylist(playlist.id, song.id)
+            
+            // Delete local cache file if the song is not in any other playlist
+            val count = db.playlistDao().getPlaylistCountForSong(song.id)
+            if (count == 0) {
+                withContext(Dispatchers.IO) {
+                    song.localFilePath?.let { path ->
+                        val file = java.io.File(path)
+                        if (file.exists()) {
+                            file.delete()
+                        }
+                    }
+                }
+                db.songDao().updateDownloadStatus(song.id, null, false)
+            }
         }
     }
 
     private fun addSongToPlaylistDialog(song: SongEntity) {
-        // If there's an active playlist selected, add it immediately for D-pad UX ease
         val activePlaylist = selectedPlaylist
         if (activePlaylist != null) {
             lifecycleScope.launch {
                 db.playlistDao().addSongToPlaylist(
                     PlaylistSongCrossRef(playlistId = activePlaylist.id, songId = song.id)
                 )
+                triggerDownload(song.id)
             }
         } else {
-            // Otherwise add it to the first available playlist if any exists
             lifecycleScope.launch {
                 val list = db.playlistDao().getAllPlaylists().first()
                 if (list.isNotEmpty()) {
                     db.playlistDao().addSongToPlaylist(
                         PlaylistSongCrossRef(playlistId = list.first().id, songId = song.id)
                     )
+                    triggerDownload(song.id)
+                }
+            }
+        }
+    }
+
+    private fun triggerDownload(songId: String) {
+        val downloadRequest = OneTimeWorkRequestBuilder<com.musicplayer.gdrivetv.sync.DownloadWorker>()
+            .setInputData(androidx.work.workDataOf("song_id" to songId))
+            .build()
+        WorkManager.getInstance(applicationContext).enqueue(downloadRequest)
+    }
+
+    private fun cleanupLocalCache() {
+        lifecycleScope.launch(Dispatchers.IO) {
+            val musicDir = java.io.File(filesDir, "cached_songs")
+            if (musicDir.exists()) {
+                val files = musicDir.listFiles() ?: return@launch
+                for (file in files) {
+                    val songId = file.name.substringBeforeLast(".")
+                    val count = db.playlistDao().getPlaylistCountForSong(songId)
+                    if (count == 0) {
+                        file.delete()
+                        db.songDao().updateDownloadStatus(songId, null, false)
+                    }
                 }
             }
         }
