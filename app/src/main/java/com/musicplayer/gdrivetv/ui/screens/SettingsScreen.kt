@@ -51,29 +51,41 @@ fun SettingsScreen(
         Row(modifier = Modifier.fillMaxWidth()) {
             Column(modifier = Modifier.weight(1.2f)) {
                 // Folder ID Config
-                androidx.compose.material3.OutlinedTextField(
+                Text("Google Drive Folder ID", color = Color.White, fontSize = 14.sp, modifier = Modifier.padding(bottom = 4.dp))
+                androidx.compose.foundation.text.BasicTextField(
                     value = folderInput,
                     onValueChange = {
                         folderInput = it
                         onFolderIdChanged(it)
                     },
-                    label = { Text("Google Drive Folder ID") },
-                    singleLine = true,
-                    modifier = Modifier.fillMaxWidth()
+                    textStyle = androidx.compose.ui.text.TextStyle(color = Color.White, fontSize = 15.sp),
+                    cursorBrush = androidx.compose.ui.graphics.SolidColor(Color.White),
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .background(Color(0xFF2E2E2E), androidx.compose.foundation.shape.RoundedCornerShape(4.dp))
+                        .border(1.dp, Color.Gray, androidx.compose.foundation.shape.RoundedCornerShape(4.dp))
+                        .padding(12.dp),
+                    singleLine = true
                 )
 
                 Spacer(modifier = Modifier.height(16.dp))
 
                 // API Key Config
-                androidx.compose.material3.OutlinedTextField(
+                Text("Google Drive API Key (Optional)", color = Color.White, fontSize = 14.sp, modifier = Modifier.padding(bottom = 4.dp))
+                androidx.compose.foundation.text.BasicTextField(
                     value = apiInput,
                     onValueChange = {
                         apiInput = it
                         onApiKeyChanged(it)
                     },
-                    label = { Text("Google Drive API Key (Optional)") },
-                    singleLine = true,
-                    modifier = Modifier.fillMaxWidth()
+                    textStyle = androidx.compose.ui.text.TextStyle(color = Color.White, fontSize = 15.sp),
+                    cursorBrush = androidx.compose.ui.graphics.SolidColor(Color.White),
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .background(Color(0xFF2E2E2E), androidx.compose.foundation.shape.RoundedCornerShape(4.dp))
+                        .border(1.dp, Color.Gray, androidx.compose.foundation.shape.RoundedCornerShape(4.dp))
+                        .padding(12.dp),
+                    singleLine = true
                 )
 
                 Spacer(modifier = Modifier.height(24.dp))

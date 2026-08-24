@@ -68,7 +68,7 @@ class MainActivity : ComponentActivity() {
 
         // 3. Bind Media Session Controller
         val sessionToken = SessionToken(this, ComponentName(this, PlaybackService::class.java))
-        controllerFuture = MediaController.Builder(this, sessionToken).build()
+        controllerFuture = MediaController.Builder(this, sessionToken).buildAsync()
         controllerFuture.addListener({
             mediaController = controllerFuture.get()
             setupPlayerListener()

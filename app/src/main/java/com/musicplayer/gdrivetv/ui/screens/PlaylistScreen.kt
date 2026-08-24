@@ -191,12 +191,12 @@ fun PlaylistScreen(
     // Dialog for Creating Playlist (Since TV apps need custom dialog layout, a simple Compose Dialog is used)
     if (showCreateDialog) {
         androidx.compose.ui.window.Dialog(onDismissRequest = { showCreateDialog = false }) {
-            Surface(
+            androidx.tv.material3.Surface(
                 modifier = Modifier
                     .width(400.dp)
-                    .wrapContentHeight(),
-                shape = androidx.compose.foundation.shape.RoundedCornerShape(12.dp),
-                color = MaterialTheme.colorScheme.surface
+                    .wrapContentHeight()
+                    .background(Color(0xFF1E1E1E), androidx.compose.foundation.shape.RoundedCornerShape(12.dp))
+                    .border(1.dp, Color.Gray, androidx.compose.foundation.shape.RoundedCornerShape(12.dp))
             ) {
                 Column(
                     modifier = Modifier.padding(24.dp),
@@ -210,13 +210,18 @@ fun PlaylistScreen(
                         modifier = Modifier.padding(bottom = 16.dp)
                     )
 
-                    // Text Field for TV input
-                    androidx.compose.material3.OutlinedTextField(
+                    // Text Field for TV input (using BasicTextField for zero dependency safety)
+                    androidx.compose.foundation.text.BasicTextField(
                         value = playlistNameInput,
                         onValueChange = { playlistNameInput = it },
-                        label = { Text("Playlist Name") },
-                        singleLine = true,
-                        modifier = Modifier.fillMaxWidth()
+                        textStyle = androidx.compose.ui.text.TextStyle(color = Color.White, fontSize = 16.sp),
+                        cursorBrush = androidx.compose.ui.graphics.SolidColor(Color.White),
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .background(Color(0xFF2E2E2E), androidx.compose.foundation.shape.RoundedCornerShape(4.dp))
+                            .border(1.dp, Color.Gray, androidx.compose.foundation.shape.RoundedCornerShape(4.dp))
+                            .padding(12.dp),
+                        singleLine = true
                     )
 
                     Spacer(modifier = Modifier.height(24.dp))
