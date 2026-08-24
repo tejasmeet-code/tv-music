@@ -1,0 +1,12 @@
+{
+  "name": "gdrive-music-tv-simulator",
+  "version": "1.0.0",
+  "description": "Localhost TV Music Player Simulator",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDrive Music TV Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="tv-container">
+        <!-- Sidebar Navigation -->
+        <div id="sidebar">
+            <div class="logo">GDrive Music</div>
+            <div class="menu-item focusable active" data-screen="library" id="menu-library">Library</div>
+            <div class="menu-item focusable" data-screen="playlists" id="menu-playlists">Playlists</div>
+            <div class="menu-item focusable" data-screen="now-playing" id="menu-nowplaying">Now Playing</div>
+        </div>
+
+        <!-- Main Screen Area -->
+        <div id="main-content">
+            <!-- Library Screen -->
+            <div id="screen-library" class="screen active-screen">
+                <h2>Music Library (Google Drive Folder)</h2>
+                <div class="loading">Loading songs...</div>
+                <div id="song-grid" class="grid"></div>
+            </div>
+
+            <!-- Playlists Screen -->
+            <div id="screen-playlists" class="screen">
+                <h2>Custom Playlists</h2>
+                <div class="playlists-container">
+                    <div class="playlist-header">
+                        <button class="focusable btn" id="btn-create-playlist">Create Playlist</button>
+                    </div>
+                    <div id="playlist-list">
+                        <!-- Playlists go here -->
+                        <div class="no-playlists">No playlists yet.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Now Playing Screen -->
+            <div id="screen-now-playing" class="screen">
+                <h2>Now Playing</h2>
+                <div class="player-container">
+                    <div class="album-art-large">🎵</div>
+                    <div class="track-details">
+                        <h3 id="player-title">No Track Selected</h3>
+                        <p id="player-format">Format: N/A</p>
+                    </div>
+                    <div class="progress-bar-container">
+                        <span id="current-time">0:00</span>
+                        <div class="progress-bar-bg">
+                            <div id="progress-fill"></div>
+                        </div>
+                        <span id="total-time">0:00</span>
+                    </div>
+                    <div class="controls">
+                        <button class="control-btn focusable" id="btn-prev">⏮</button>
+                        <button class="control-btn focusable" id="btn-play">▶</button>
+                        <button class="control-btn focusable" id="btn-next">⏭</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hidden audio element for playback -->
+    <audio id="audio-player"></audio>
+
+    <!-- TV Key Help Overlay -->
+    <div id="tv-help">
+        Use <strong>Arrow Keys</strong> to navigate, <strong>Enter</strong> to select, <strong>Esc</strong> to go back.
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
