@@ -56,7 +56,7 @@ fun NowPlayingScreen(
                 // Vinyl / Cover Art representation
                 Box(
                     modifier = Modifier
-                        .size(240dp)
+                        .size(240.dp)
                         .clip(RoundedCornerShape(120.dp))
                         .background(Color.DarkGray)
                         .padding(16.dp),
@@ -114,7 +114,7 @@ fun NowPlayingScreen(
                         modifier = Modifier
                             .weight(1f)
                             .padding(horizontal = 16.dp)
-                            .height(6dp)
+                            .height(6.dp)
                             .background(Color.Gray, RoundedCornerShape(3.dp))
                     ) {
                         Box(

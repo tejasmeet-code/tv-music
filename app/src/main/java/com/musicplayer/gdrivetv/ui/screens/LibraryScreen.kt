@@ -105,7 +105,7 @@ fun SongGridItem(
             }
 
             Column(
-                modifier = Modifier.weight(1fr)
+                modifier = Modifier.weight(1f)
             ) {
                 Text(
                     text = song.title,

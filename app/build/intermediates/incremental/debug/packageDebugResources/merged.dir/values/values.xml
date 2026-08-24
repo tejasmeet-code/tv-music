@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GDrive Music TV</string>
+    <style name="Theme.GDriveMusicTV" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        
+    </style>
+</resources>

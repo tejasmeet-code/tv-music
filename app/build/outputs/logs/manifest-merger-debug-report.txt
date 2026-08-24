@@ -1,0 +1,697 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:2:1-51:12
+MERGED from [io.coil-kt:coil-compose:2.5.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/69753cae8dc777f67d56181c4fd62b5e/transformed/jetified-coil-compose-2.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.work:work-runtime-ktx:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/264ab1e4b31cfff32d0b659a5f3422f7/transformed/work-runtime-ktx-2.9.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.room:room-ktx:2.6.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/8d51f435b58c840f5d3a3a34c919d1a4/transformed/jetified-room-ktx-2.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.6.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/1745205818d67ee631169605e7134fb9/transformed/room-runtime-2.6.0/AndroidManifest.xml:17:1-31:12
+MERGED from [io.coil-kt:coil-compose-base:2.5.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/c8f257506b16cdcf94ea6fc9143ce2f1/transformed/jetified-coil-compose-base-2.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil:2.5.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/340d4a2c0bcdf04f0234133e9a135d40/transformed/jetified-coil-2.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/e8be0c23c41313c537382bef6a2d4e4c/transformed/jetified-accompanist-drawablepainter-0.32.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.tv:tv-material:1.0.0-alpha10] /Users/tejas.dhanoa/.gradle/caches/transforms-3/45efc93f1dd54c7ad0255439ccf2b538/transformed/jetified-tv-material-1.0.0-alpha10/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.tv:tv-foundation:1.0.0-alpha10] /Users/tejas.dhanoa/.gradle/caches/transforms-3/d270dd583c2c381728366765ef950a43/transformed/jetified-tv-foundation-1.0.0-alpha10/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple:1.4.3] /Users/tejas.dhanoa/.gradle/caches/transforms-3/201ed2d3104a89e229e59bb13cb3529c/transformed/jetified-material-ripple-1.4.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material:1.4.3] /Users/tejas.dhanoa/.gradle/caches/transforms-3/d731ad6b899e87ac59080cd34be0c899/transformed/jetified-material-1.4.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-icons-core:1.4.3] /Users/tejas.dhanoa/.gradle/caches/transforms-3/409c00ab221d3d351dd757999d840d96/transformed/jetified-material-icons-core-1.4.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.animation:animation-core-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6c65b0cef6fc0672835bdfa03d30341d/transformed/jetified-animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/117c116c65e4cb182de2dc78a9c0bb85/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/8a9cda321d84bda987548f0d9a082f46/transformed/jetified-ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/f12d47c80202d84b6a8b37eb4bc14b7e/transformed/jetified-ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/8f83269e8b409c9d9126bd0e0f7c436a/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/84d6cbcd62365b15d0de52ba075cdec3/transformed/jetified-ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/e5ce62b55c7a6c10e776caf74bc0b7bd/transformed/jetified-ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/211b6b2b8cd5cb0b32f7029138a3fe4f/transformed/jetified-ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/0c9816178c4a4cbd1e19f66365cbdcab/transformed/jetified-ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.animation:animation-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/4e541337ff828c52dc83c577cb8257a8/transformed/jetified-animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/18b0a539c369546d2995bb2f11de41ec/transformed/jetified-foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/e3b7ba987536b4549f0e3a174daf33c5/transformed/jetified-foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/13e64e7f8a89de120ca3a16ca779c217/transformed/jetified-ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/8b4be9a7bfe565ad805743296f951c9d/transformed/jetified-ui-test-manifest-1.6.0-alpha07/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity:1.8.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/a06ab47cb0f3350349e92898f96eba35/transformed/jetified-activity-1.8.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.8.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/37e342a295500f0dc50fdceea2314c67/transformed/jetified-activity-compose-1.8.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.8.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/2748c28d5588b9a74116fcc5ed55bc2f/transformed/jetified-activity-ktx-1.8.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/e05c42f47a6ee12d50d10550f75c63ef/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/3438480b05a0a09806f10667c0908d33/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/1f2116fcf1454baa5dffa78a788e4f9f/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/ec2fd286f4e75cae103f509b5b90aa53/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/d841ade449fff5ab414257ad48d89def/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/f239bbebe727767444a36b4ff7049f31/transformed/jetified-lifecycle-service-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/86ed47af4147a41f75c871cf3bf4f1f8/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/24760e59afb4aa65b7204ad4ef1fe8db/transformed/jetified-lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/d2f20a5356fc90c0cf3c981bded1aefe/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/b9e1d9aebda6b29b8dd93ab88b79c057/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-exoplayer:1.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6e4c2a00071f05e74be9cd1b23320985/transformed/jetified-media3-exoplayer-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media3:media3-session:1.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/065f8f75bfa7c7d4049b607028b24e13/transformed/jetified-media3-session-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-extractor:1.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/ecef16a9c86b5a62eb0edcea5f480338/transformed/jetified-media3-extractor-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-container:1.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/b5d626dc18ca565ab4d8aac015c82f26/transformed/jetified-media3-container-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-datasource:1.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/973ba791966ff1717e35b395abe38de8/transformed/jetified-media3-datasource-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-decoder:1.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/42febcd2a1228589fc10c8032ecb145b/transformed/jetified-media3-decoder-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-database:1.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/4ca8a97fc74cb4bcd55d60e1a5e16755/transformed/jetified-media3-database-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-common:1.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/5c31f37ca514a9ecf1dbfab4cfe7bcb2/transformed/jetified-media3-common-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media3:media3-ui:1.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/4b7993fdca81afc0124efd94d9af94fa/transformed/jetified-media3-ui-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6c9ad4ea3980ebb2f0346590b51cb690/transformed/recyclerview-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/b10f3134c69ae1c0b258294a4ce4cd38/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [io.coil-kt:coil-base:2.5.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/dcfb7101d76a26ef5d94331baf1ce268/transformed/jetified-coil-base-2.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/0715f7cc19721b075ba81cca1d176197/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.media:media:1.6.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/208c910d766716a9aa60b9feb03a4feb/transformed/media-1.6.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/9e0b15f6088efea53b760ee09cab7550/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6df6306fa672594375d04aa1647086ed/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/f9ad2accb9a2c7343cc0f3aa815a385d/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/eed82ebf2c05fb076539f7505ae0ec42/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/fa12ff970c395edbe1ad5f590b9c8f01/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.12.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/a077ad263ae1433cad820c18e4a34eee/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/764b34cf42fb5f64951bc28fb8990ef3/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/a36df50b2296ab9f887e920c9567aecc/transformed/jetified-lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/4a404c1c982b314ce9edceb6c4c45422/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/1d9e971edd47fd9b429b1b7974ddda4c/transformed/jetified-runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/342f64e217f481c6797cd74545ccf0ee/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/be00ffef8c82ada6439f73fc06fc4e31/transformed/sqlite-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/532d92396d0801ea5e0932e0ff4325aa/transformed/jetified-annotation-experimental-1.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6f3d4b4fb651e17b984b104d962d10dd/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/tejas.dhanoa/.gradle/caches/transforms-3/4df8993a280e1d71ef12d78bcef83693/transformed/exifinterface-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/33d881e4067825cefeb3b42febada8e2/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/9a7fdc67788ad6e6f7d1457f74265cbe/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/ccf944d1f442e807e67723aaede14682/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/cd6ea40170be267fc0f9af677b97d35f/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/9cc1d8d204f2ac3b01858b6f41a0547e/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+	package
+		INJECTED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:6:5-79
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:24:5-79
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:24:5-79
+MERGED from [androidx.media3:media3-exoplayer:1.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6e4c2a00071f05e74be9cd1b23320985/transformed/jetified-media3-exoplayer-1.2.0/AndroidManifest.xml:22:5-79
+MERGED from [androidx.media3:media3-exoplayer:1.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6e4c2a00071f05e74be9cd1b23320985/transformed/jetified-media3-exoplayer-1.2.0/AndroidManifest.xml:22:5-79
+MERGED from [androidx.media3:media3-common:1.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/5c31f37ca514a9ecf1dbfab4cfe7bcb2/transformed/jetified-media3-common-1.2.0/AndroidManifest.xml:22:5-79
+MERGED from [androidx.media3:media3-common:1.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/5c31f37ca514a9ecf1dbfab4cfe7bcb2/transformed/jetified-media3-common-1.2.0/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:7:5-68
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:23:5-68
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:23:5-68
+	android:name
+		ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:7:22-65
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:8:5-76
+	android:name
+		ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:8:22-73
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:9:5-77
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:26:5-77
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:9:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK
+ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:10:5-92
+	android:name
+		ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:10:22-89
+uses-feature#android.software.leanback
+ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:13:5-87
+	android:required
+		ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:13:60-84
+	android:name
+		ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:13:19-59
+uses-feature#android.hardware.touchscreen
+ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:14:5-90
+	android:required
+		ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:14:63-87
+	android:name
+		ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:14:19-62
+application
+ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:16:5-49:19
+INJECTED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:16:5-49:19
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.room:room-runtime:2.6.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/1745205818d67ee631169605e7134fb9/transformed/room-runtime-2.6.0/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/1745205818d67ee631169605e7134fb9/transformed/room-runtime-2.6.0/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/0c9816178c4a4cbd1e19f66365cbdcab/transformed/jetified-ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/0c9816178c4a4cbd1e19f66365cbdcab/transformed/jetified-ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/8b4be9a7bfe565ad805743296f951c9d/transformed/jetified-ui-test-manifest-1.6.0-alpha07/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/8b4be9a7bfe565ad805743296f951c9d/transformed/jetified-ui-test-manifest-1.6.0-alpha07/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/1f2116fcf1454baa5dffa78a788e4f9f/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/1f2116fcf1454baa5dffa78a788e4f9f/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/ec2fd286f4e75cae103f509b5b90aa53/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/ec2fd286f4e75cae103f509b5b90aa53/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/a077ad263ae1433cad820c18e4a34eee/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/a077ad263ae1433cad820c18e4a34eee/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6f3d4b4fb651e17b984b104d962d10dd/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6f3d4b4fb651e17b984b104d962d10dd/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/ccf944d1f442e807e67723aaede14682/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/ccf944d1f442e807e67723aaede14682/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/cd6ea40170be267fc0f9af677b97d35f/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/cd6ea40170be267fc0f9af677b97d35f/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/a077ad263ae1433cad820c18e4a34eee/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:20:9-35
+	android:label
+		ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:19:9-41
+	android:largeHeap
+		ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:23:9-33
+	android:icon
+		ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:18:9-43
+	android:allowBackup
+		ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:17:9-35
+	android:banner
+		ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:22:9-46
+	android:theme
+		ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:21:9-51
+activity#com.musicplayer.gdrivetv.MainActivity
+ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:25:9-34:20
+	android:screenOrientation
+		ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:28:13-50
+	android:exported
+		ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:27:13-36
+	android:theme
+		ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:29:13-55
+	android:name
+		ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:26:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LEANBACK_LAUNCHER
+ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:30:13-33:29
+action#android.intent.action.MAIN
+ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:31:17-69
+	android:name
+		ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:31:25-66
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:32:17-86
+	android:name
+		ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:32:27-83
+service#com.musicplayer.gdrivetv.playback.PlaybackService
+ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:37:9-46:19
+	android:enabled
+		ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:39:13-35
+	android:exported
+		ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:40:13-37
+	android:foregroundServiceType
+		ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:41:13-58
+	android:name
+		ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:38:13-53
+intent-filter#action:name:android.media.browse.MediaBrowserService+action:name:androidx.media3.session.MediaSessionService
+ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:42:13-45:29
+action#androidx.media3.session.MediaSessionService
+ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:43:17-86
+	android:name
+		ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:43:25-83
+action#android.media.browse.MediaBrowserService
+ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:44:17-83
+	android:name
+		ADDED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml:44:25-80
+uses-sdk
+INJECTED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml
+INJECTED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml
+MERGED from [io.coil-kt:coil-compose:2.5.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/69753cae8dc777f67d56181c4fd62b5e/transformed/jetified-coil-compose-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.5.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/69753cae8dc777f67d56181c4fd62b5e/transformed/jetified-coil-compose-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.work:work-runtime-ktx:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/264ab1e4b31cfff32d0b659a5f3422f7/transformed/work-runtime-ktx-2.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime-ktx:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/264ab1e4b31cfff32d0b659a5f3422f7/transformed/work-runtime-ktx-2.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/8d51f435b58c840f5d3a3a34c919d1a4/transformed/jetified-room-ktx-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/8d51f435b58c840f5d3a3a34c919d1a4/transformed/jetified-room-ktx-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.6.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/1745205818d67ee631169605e7134fb9/transformed/room-runtime-2.6.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/1745205818d67ee631169605e7134fb9/transformed/room-runtime-2.6.0/AndroidManifest.xml:21:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.5.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/c8f257506b16cdcf94ea6fc9143ce2f1/transformed/jetified-coil-compose-base-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.5.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/c8f257506b16cdcf94ea6fc9143ce2f1/transformed/jetified-coil-compose-base-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.5.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/340d4a2c0bcdf04f0234133e9a135d40/transformed/jetified-coil-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.5.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/340d4a2c0bcdf04f0234133e9a135d40/transformed/jetified-coil-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/e8be0c23c41313c537382bef6a2d4e4c/transformed/jetified-accompanist-drawablepainter-0.32.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/e8be0c23c41313c537382bef6a2d4e4c/transformed/jetified-accompanist-drawablepainter-0.32.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.tv:tv-material:1.0.0-alpha10] /Users/tejas.dhanoa/.gradle/caches/transforms-3/45efc93f1dd54c7ad0255439ccf2b538/transformed/jetified-tv-material-1.0.0-alpha10/AndroidManifest.xml:5:5-44
+MERGED from [androidx.tv:tv-material:1.0.0-alpha10] /Users/tejas.dhanoa/.gradle/caches/transforms-3/45efc93f1dd54c7ad0255439ccf2b538/transformed/jetified-tv-material-1.0.0-alpha10/AndroidManifest.xml:5:5-44
+MERGED from [androidx.tv:tv-foundation:1.0.0-alpha10] /Users/tejas.dhanoa/.gradle/caches/transforms-3/d270dd583c2c381728366765ef950a43/transformed/jetified-tv-foundation-1.0.0-alpha10/AndroidManifest.xml:5:5-44
+MERGED from [androidx.tv:tv-foundation:1.0.0-alpha10] /Users/tejas.dhanoa/.gradle/caches/transforms-3/d270dd583c2c381728366765ef950a43/transformed/jetified-tv-foundation-1.0.0-alpha10/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple:1.4.3] /Users/tejas.dhanoa/.gradle/caches/transforms-3/201ed2d3104a89e229e59bb13cb3529c/transformed/jetified-material-ripple-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple:1.4.3] /Users/tejas.dhanoa/.gradle/caches/transforms-3/201ed2d3104a89e229e59bb13cb3529c/transformed/jetified-material-ripple-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material:1.4.3] /Users/tejas.dhanoa/.gradle/caches/transforms-3/d731ad6b899e87ac59080cd34be0c899/transformed/jetified-material-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material:1.4.3] /Users/tejas.dhanoa/.gradle/caches/transforms-3/d731ad6b899e87ac59080cd34be0c899/transformed/jetified-material-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-icons-core:1.4.3] /Users/tejas.dhanoa/.gradle/caches/transforms-3/409c00ab221d3d351dd757999d840d96/transformed/jetified-material-icons-core-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-icons-core:1.4.3] /Users/tejas.dhanoa/.gradle/caches/transforms-3/409c00ab221d3d351dd757999d840d96/transformed/jetified-material-icons-core-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6c65b0cef6fc0672835bdfa03d30341d/transformed/jetified-animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6c65b0cef6fc0672835bdfa03d30341d/transformed/jetified-animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/117c116c65e4cb182de2dc78a9c0bb85/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/117c116c65e4cb182de2dc78a9c0bb85/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/8a9cda321d84bda987548f0d9a082f46/transformed/jetified-ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/8a9cda321d84bda987548f0d9a082f46/transformed/jetified-ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/f12d47c80202d84b6a8b37eb4bc14b7e/transformed/jetified-ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/f12d47c80202d84b6a8b37eb4bc14b7e/transformed/jetified-ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/8f83269e8b409c9d9126bd0e0f7c436a/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/8f83269e8b409c9d9126bd0e0f7c436a/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/84d6cbcd62365b15d0de52ba075cdec3/transformed/jetified-ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/84d6cbcd62365b15d0de52ba075cdec3/transformed/jetified-ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/e5ce62b55c7a6c10e776caf74bc0b7bd/transformed/jetified-ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/e5ce62b55c7a6c10e776caf74bc0b7bd/transformed/jetified-ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/211b6b2b8cd5cb0b32f7029138a3fe4f/transformed/jetified-ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/211b6b2b8cd5cb0b32f7029138a3fe4f/transformed/jetified-ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/0c9816178c4a4cbd1e19f66365cbdcab/transformed/jetified-ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/0c9816178c4a4cbd1e19f66365cbdcab/transformed/jetified-ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/4e541337ff828c52dc83c577cb8257a8/transformed/jetified-animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/4e541337ff828c52dc83c577cb8257a8/transformed/jetified-animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/18b0a539c369546d2995bb2f11de41ec/transformed/jetified-foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/18b0a539c369546d2995bb2f11de41ec/transformed/jetified-foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/e3b7ba987536b4549f0e3a174daf33c5/transformed/jetified-foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/e3b7ba987536b4549f0e3a174daf33c5/transformed/jetified-foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/13e64e7f8a89de120ca3a16ca779c217/transformed/jetified-ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/13e64e7f8a89de120ca3a16ca779c217/transformed/jetified-ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/8b4be9a7bfe565ad805743296f951c9d/transformed/jetified-ui-test-manifest-1.6.0-alpha07/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/8b4be9a7bfe565ad805743296f951c9d/transformed/jetified-ui-test-manifest-1.6.0-alpha07/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/a06ab47cb0f3350349e92898f96eba35/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/a06ab47cb0f3350349e92898f96eba35/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.8.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/37e342a295500f0dc50fdceea2314c67/transformed/jetified-activity-compose-1.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/37e342a295500f0dc50fdceea2314c67/transformed/jetified-activity-compose-1.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/2748c28d5588b9a74116fcc5ed55bc2f/transformed/jetified-activity-ktx-1.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/2748c28d5588b9a74116fcc5ed55bc2f/transformed/jetified-activity-ktx-1.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/e05c42f47a6ee12d50d10550f75c63ef/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/e05c42f47a6ee12d50d10550f75c63ef/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/3438480b05a0a09806f10667c0908d33/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/3438480b05a0a09806f10667c0908d33/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/1f2116fcf1454baa5dffa78a788e4f9f/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/1f2116fcf1454baa5dffa78a788e4f9f/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/ec2fd286f4e75cae103f509b5b90aa53/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/ec2fd286f4e75cae103f509b5b90aa53/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/d841ade449fff5ab414257ad48d89def/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/d841ade449fff5ab414257ad48d89def/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/f239bbebe727767444a36b4ff7049f31/transformed/jetified-lifecycle-service-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/f239bbebe727767444a36b4ff7049f31/transformed/jetified-lifecycle-service-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/86ed47af4147a41f75c871cf3bf4f1f8/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/86ed47af4147a41f75c871cf3bf4f1f8/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/24760e59afb4aa65b7204ad4ef1fe8db/transformed/jetified-lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/24760e59afb4aa65b7204ad4ef1fe8db/transformed/jetified-lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/d2f20a5356fc90c0cf3c981bded1aefe/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/d2f20a5356fc90c0cf3c981bded1aefe/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/b9e1d9aebda6b29b8dd93ab88b79c057/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/b9e1d9aebda6b29b8dd93ab88b79c057/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer:1.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6e4c2a00071f05e74be9cd1b23320985/transformed/jetified-media3-exoplayer-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer:1.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6e4c2a00071f05e74be9cd1b23320985/transformed/jetified-media3-exoplayer-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-session:1.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/065f8f75bfa7c7d4049b607028b24e13/transformed/jetified-media3-session-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-session:1.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/065f8f75bfa7c7d4049b607028b24e13/transformed/jetified-media3-session-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-extractor:1.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/ecef16a9c86b5a62eb0edcea5f480338/transformed/jetified-media3-extractor-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-extractor:1.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/ecef16a9c86b5a62eb0edcea5f480338/transformed/jetified-media3-extractor-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-container:1.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/b5d626dc18ca565ab4d8aac015c82f26/transformed/jetified-media3-container-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-container:1.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/b5d626dc18ca565ab4d8aac015c82f26/transformed/jetified-media3-container-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-datasource:1.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/973ba791966ff1717e35b395abe38de8/transformed/jetified-media3-datasource-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-datasource:1.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/973ba791966ff1717e35b395abe38de8/transformed/jetified-media3-datasource-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-decoder:1.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/42febcd2a1228589fc10c8032ecb145b/transformed/jetified-media3-decoder-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-decoder:1.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/42febcd2a1228589fc10c8032ecb145b/transformed/jetified-media3-decoder-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-database:1.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/4ca8a97fc74cb4bcd55d60e1a5e16755/transformed/jetified-media3-database-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-database:1.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/4ca8a97fc74cb4bcd55d60e1a5e16755/transformed/jetified-media3-database-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-common:1.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/5c31f37ca514a9ecf1dbfab4cfe7bcb2/transformed/jetified-media3-common-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-common:1.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/5c31f37ca514a9ecf1dbfab4cfe7bcb2/transformed/jetified-media3-common-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-ui:1.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/4b7993fdca81afc0124efd94d9af94fa/transformed/jetified-media3-ui-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-ui:1.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/4b7993fdca81afc0124efd94d9af94fa/transformed/jetified-media3-ui-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6c9ad4ea3980ebb2f0346590b51cb690/transformed/recyclerview-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6c9ad4ea3980ebb2f0346590b51cb690/transformed/recyclerview-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/b10f3134c69ae1c0b258294a4ce4cd38/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/b10f3134c69ae1c0b258294a4ce4cd38/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [io.coil-kt:coil-base:2.5.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/dcfb7101d76a26ef5d94331baf1ce268/transformed/jetified-coil-base-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.5.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/dcfb7101d76a26ef5d94331baf1ce268/transformed/jetified-coil-base-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/0715f7cc19721b075ba81cca1d176197/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/0715f7cc19721b075ba81cca1d176197/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.media:media:1.6.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/208c910d766716a9aa60b9feb03a4feb/transformed/media-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.6.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/208c910d766716a9aa60b9feb03a4feb/transformed/media-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/9e0b15f6088efea53b760ee09cab7550/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/9e0b15f6088efea53b760ee09cab7550/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6df6306fa672594375d04aa1647086ed/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6df6306fa672594375d04aa1647086ed/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/f9ad2accb9a2c7343cc0f3aa815a385d/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/f9ad2accb9a2c7343cc0f3aa815a385d/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/eed82ebf2c05fb076539f7505ae0ec42/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/eed82ebf2c05fb076539f7505ae0ec42/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/fa12ff970c395edbe1ad5f590b9c8f01/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/fa12ff970c395edbe1ad5f590b9c8f01/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/a077ad263ae1433cad820c18e4a34eee/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/a077ad263ae1433cad820c18e4a34eee/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/764b34cf42fb5f64951bc28fb8990ef3/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/764b34cf42fb5f64951bc28fb8990ef3/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/a36df50b2296ab9f887e920c9567aecc/transformed/jetified-lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/a36df50b2296ab9f887e920c9567aecc/transformed/jetified-lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/4a404c1c982b314ce9edceb6c4c45422/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/4a404c1c982b314ce9edceb6c4c45422/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/1d9e971edd47fd9b429b1b7974ddda4c/transformed/jetified-runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/1d9e971edd47fd9b429b1b7974ddda4c/transformed/jetified-runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/342f64e217f481c6797cd74545ccf0ee/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/342f64e217f481c6797cd74545ccf0ee/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/be00ffef8c82ada6439f73fc06fc4e31/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/be00ffef8c82ada6439f73fc06fc4e31/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/532d92396d0801ea5e0932e0ff4325aa/transformed/jetified-annotation-experimental-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/532d92396d0801ea5e0932e0ff4325aa/transformed/jetified-annotation-experimental-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6f3d4b4fb651e17b984b104d962d10dd/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6f3d4b4fb651e17b984b104d962d10dd/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/tejas.dhanoa/.gradle/caches/transforms-3/4df8993a280e1d71ef12d78bcef83693/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/tejas.dhanoa/.gradle/caches/transforms-3/4df8993a280e1d71ef12d78bcef83693/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/33d881e4067825cefeb3b42febada8e2/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/33d881e4067825cefeb3b42febada8e2/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/9a7fdc67788ad6e6f7d1457f74265cbe/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/9a7fdc67788ad6e6f7d1457f74265cbe/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/ccf944d1f442e807e67723aaede14682/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/ccf944d1f442e807e67723aaede14682/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/cd6ea40170be267fc0f9af677b97d35f/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/cd6ea40170be267fc0f9af677b97d35f/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/9cc1d8d204f2ac3b01858b6f41a0547e/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/9cc1d8d204f2ac3b01858b6f41a0547e/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+	android:targetSdkVersion
+		INJECTED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/tejas.dhanoa/tv-music-ref/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:25:22-78
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:29:9-37:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/1f2116fcf1454baa5dffa78a788e4f9f/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/1f2116fcf1454baa5dffa78a788e4f9f/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/ec2fd286f4e75cae103f509b5b90aa53/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/ec2fd286f4e75cae103f509b5b90aa53/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6f3d4b4fb651e17b984b104d962d10dd/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6f3d4b4fb651e17b984b104d962d10dd/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/cd6ea40170be267fc0f9af677b97d35f/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/cd6ea40170be267fc0f9af677b97d35f/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:33:13-31
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:31:13-68
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:30:13-67
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:34:13-36:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:36:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:35:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:39:9-45:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:42:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:43:13-37
+	tools:ignore
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:44:13-60
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:45:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:40:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:46:9-52:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:49:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:50:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:51:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:52:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:48:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:47:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:53:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:56:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:57:13-37
+	tools:ignore
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:58:13-60
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:55:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:54:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:116:13-120:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:117:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:117:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/50e3261bd86fb1eb4f0f6afaa3d9def3/transformed/work-runtime-2.9.0/AndroidManifest.xml:140:25-85
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/1745205818d67ee631169605e7134fb9/transformed/room-runtime-2.6.0/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/1745205818d67ee631169605e7134fb9/transformed/room-runtime-2.6.0/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/1745205818d67ee631169605e7134fb9/transformed/room-runtime-2.6.0/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/1745205818d67ee631169605e7134fb9/transformed/room-runtime-2.6.0/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/1745205818d67ee631169605e7134fb9/transformed/room-runtime-2.6.0/AndroidManifest.xml:25:13-74
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/0c9816178c4a4cbd1e19f66365cbdcab/transformed/jetified-ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/0c9816178c4a4cbd1e19f66365cbdcab/transformed/jetified-ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/0c9816178c4a4cbd1e19f66365cbdcab/transformed/jetified-ui-tooling-release/AndroidManifest.xml:24:13-71
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/8b4be9a7bfe565ad805743296f951c9d/transformed/jetified-ui-test-manifest-1.6.0-alpha07/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/8b4be9a7bfe565ad805743296f951c9d/transformed/jetified-ui-test-manifest-1.6.0-alpha07/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.0-alpha07] /Users/tejas.dhanoa/.gradle/caches/transforms-3/8b4be9a7bfe565ad805743296f951c9d/transformed/jetified-ui-test-manifest-1.6.0-alpha07/AndroidManifest.xml:24:13-63
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/1f2116fcf1454baa5dffa78a788e4f9f/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/1f2116fcf1454baa5dffa78a788e4f9f/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/1f2116fcf1454baa5dffa78a788e4f9f/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/ec2fd286f4e75cae103f509b5b90aa53/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/ec2fd286f4e75cae103f509b5b90aa53/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/tejas.dhanoa/.gradle/caches/transforms-3/ec2fd286f4e75cae103f509b5b90aa53/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/a077ad263ae1433cad820c18e4a34eee/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/a077ad263ae1433cad820c18e4a34eee/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/a077ad263ae1433cad820c18e4a34eee/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+permission#com.musicplayer.gdrivetv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/a077ad263ae1433cad820c18e4a34eee/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/a077ad263ae1433cad820c18e4a34eee/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/a077ad263ae1433cad820c18e4a34eee/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/a077ad263ae1433cad820c18e4a34eee/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/a077ad263ae1433cad820c18e4a34eee/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+uses-permission#com.musicplayer.gdrivetv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/a077ad263ae1433cad820c18e4a34eee/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/tejas.dhanoa/.gradle/caches/transforms-3/a077ad263ae1433cad820c18e4a34eee/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6f3d4b4fb651e17b984b104d962d10dd/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6f3d4b4fb651e17b984b104d962d10dd/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6f3d4b4fb651e17b984b104d962d10dd/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6f3d4b4fb651e17b984b104d962d10dd/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6f3d4b4fb651e17b984b104d962d10dd/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6f3d4b4fb651e17b984b104d962d10dd/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6f3d4b4fb651e17b984b104d962d10dd/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6f3d4b4fb651e17b984b104d962d10dd/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6f3d4b4fb651e17b984b104d962d10dd/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6f3d4b4fb651e17b984b104d962d10dd/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6f3d4b4fb651e17b984b104d962d10dd/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6f3d4b4fb651e17b984b104d962d10dd/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6f3d4b4fb651e17b984b104d962d10dd/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6f3d4b4fb651e17b984b104d962d10dd/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6f3d4b4fb651e17b984b104d962d10dd/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6f3d4b4fb651e17b984b104d962d10dd/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6f3d4b4fb651e17b984b104d962d10dd/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6f3d4b4fb651e17b984b104d962d10dd/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6f3d4b4fb651e17b984b104d962d10dd/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6f3d4b4fb651e17b984b104d962d10dd/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/tejas.dhanoa/.gradle/caches/transforms-3/6f3d4b4fb651e17b984b104d962d10dd/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
