@@ -36,12 +36,22 @@ yes | sdkmanager --licenses --sdk_root="$ANDROID_HOME" > /dev/null
 echo "Installing Android Platform 34 & Build Tools..."
 sdkmanager --sdk_root="$ANDROID_HOME" "platforms;android-34" "build-tools;34.0.0" "platform-tools" > /dev/null
 
-# 4. Generate Gradle Wrapper
+# 4. Download and extract Gradle if not present
+GRADLE_HOME="/Users/tejas.dhanoa/local_tools/gradle-8.0"
+if [ ! -d "$GRADLE_HOME" ]; then
+    echo "Downloading Gradle 8.0..."
+    curl -L "https://services.gradle.org/distributions/gradle-8.0-bin.zip" -o "/Users/tejas.dhanoa/local_tools/gradle-8.0-bin.zip"
+    echo "Extracting Gradle..."
+    unzip -q "/Users/tejas.dhanoa/local_tools/gradle-8.0-bin.zip" -d "/Users/tejas.dhanoa/local_tools/"
+    rm "/Users/tejas.dhanoa/local_tools/gradle-8.0-bin.zip"
+fi
+
+# 5. Generate Gradle Wrapper
 echo "Initializing Gradle Wrapper..."
 cd /Users/tejas.dhanoa/tv-music-ref
-gradle wrapper --gradle-version 8.0
+$GRADLE_HOME/bin/gradle wrapper --gradle-version 8.0
 
-# 5. Build Debug APK
+# 6. Build Debug APK
 echo "Compiling Android TV App APK..."
 ./gradlew assembleDebug
 
