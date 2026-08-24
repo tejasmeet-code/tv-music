@@ -1,6 +1,8 @@
 package com.musicplayer.gdrivetv.ui.screens
 
 import android.text.format.Formatter
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
