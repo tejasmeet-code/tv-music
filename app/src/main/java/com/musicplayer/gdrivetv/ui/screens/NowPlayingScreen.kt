@@ -142,7 +142,7 @@ fun NowPlayingScreen(
                     // Shuffle
                     IconButton(onClick = onToggleShuffle) {
                         Icon(
-                            imageVector = Icons.Default.Refresh, // Placeholder for Shuffle
+                            imageVector = Icons.Default.Shuffle,
                             contentDescription = "Shuffle",
                             tint = if (isShuffle) MaterialTheme.colorScheme.primary else Color.White
                         )
@@ -151,7 +151,7 @@ fun NowPlayingScreen(
                     // Skip Previous
                     IconButton(onClick = onSkipPrev) {
                         Icon(
-                            imageVector = Icons.Default.ArrowBack, // Placeholder for Prev
+                            imageVector = Icons.Default.SkipPrevious,
                             contentDescription = "Previous",
                             tint = Color.White
                         )
@@ -163,7 +163,7 @@ fun NowPlayingScreen(
                         modifier = Modifier.size(56.dp)
                     ) {
                         Icon(
-                            imageVector = if (isPlaying) Icons.Default.PlayArrow else Icons.Default.PlayArrow, // Replace with standard play/pause
+                            imageVector = if (isPlaying) Icons.Default.Pause else Icons.Default.PlayArrow,
                             contentDescription = if (isPlaying) "Pause" else "Play",
                             tint = MaterialTheme.colorScheme.primary,
                             modifier = Modifier.size(36.dp)
@@ -173,7 +173,7 @@ fun NowPlayingScreen(
                     // Skip Next
                     IconButton(onClick = onSkipNext) {
                         Icon(
-                            imageVector = Icons.Default.ArrowForward, // Placeholder for Next
+                            imageVector = Icons.Default.SkipNext,
                             contentDescription = "Next",
                             tint = Color.White
                         )
@@ -182,7 +182,7 @@ fun NowPlayingScreen(
                     // Repeat
                     IconButton(onClick = onToggleRepeat) {
                         Icon(
-                            imageVector = Icons.Default.Share, // Placeholder for Repeat
+                            imageVector = Icons.Default.Repeat,
                             contentDescription = "Repeat",
                             tint = if (isRepeat) MaterialTheme.colorScheme.primary else Color.White
                         )
