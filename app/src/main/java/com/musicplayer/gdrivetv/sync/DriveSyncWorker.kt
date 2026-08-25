@@ -9,6 +9,9 @@ import androidx.work.workDataOf
 import com.musicplayer.gdrivetv.database.AppDatabase
 import com.musicplayer.gdrivetv.database.SongEntity
 
+import com.musicplayer.gdrivetv.database.PlaylistEntity
+import com.musicplayer.gdrivetv.database.PlaylistSongCrossRef
+
 class DriveSyncWorker(
     context: Context,
     params: WorkerParameters
@@ -49,30 +52,48 @@ class DriveSyncWorker(
                 songDao.deleteSong(song)
             }
 
-            // 4. Find new files and insert/update
-            val songsToInsert = mutableListOf<SongEntity>()
+            // 4. Save files and link to playlists matching Drive subfolders
             for (remoteFile in remoteFiles) {
                 val existing = localSongsMap[remoteFile.id]
-                if (existing == null) {
-                    val downloadUrl = GDriveHelper.getDownloadUrl(remoteFile.id, apiKey)
-                    val cleanTitle = remoteFile.name.substringBeforeLast(".")
-                    val newSong = SongEntity(
+                val downloadUrl = GDriveHelper.getDownloadUrl(remoteFile.id, apiKey)
+                val cleanTitle = remoteFile.name.substringBeforeLast(".")
+                val song = if (existing == null) {
+                    SongEntity(
                         id = remoteFile.id,
                         title = cleanTitle,
                         gdriveUrl = downloadUrl,
                         sizeBytes = remoteFile.size?.toLongOrNull() ?: 0L,
                         isDownloaded = false
                     )
-                    songsToInsert.add(newSong)
+                } else {
+                    existing.copy(
+                        title = cleanTitle,
+                        gdriveUrl = downloadUrl,
+                        sizeBytes = remoteFile.size?.toLongOrNull() ?: 0L
+                    )
+                }
+                songDao.insertSong(song)
+
+                // If song resides in a GDrive subfolder, automatically map to a global playlist
+                remoteFile.playlistName?.let { plName ->
+                    var playlist = db.playlistDao().getPlaylistByName(plName)
+                    if (playlist == null) {
+                        val newId = db.playlistDao().insertPlaylist(PlaylistEntity(name = plName))
+                        playlist = PlaylistEntity(id = newId, name = plName)
+                    }
+                    db.playlistDao().addSongToPlaylist(
+                        PlaylistSongCrossRef(playlistId = playlist.id, songId = song.id)
+                    )
+
+                    // Automatically enqueue download for songs belonging to any playlist
+                    if (!song.isDownloaded) {
+                        val downloadRequest = OneTimeWorkRequestBuilder<DownloadWorker>()
+                            .setInputData(workDataOf("song_id" to song.id))
+                            .build()
+                        WorkManager.getInstance(applicationContext).enqueue(downloadRequest)
+                    }
                 }
             }
-
-            if (songsToInsert.isNotEmpty()) {
-                songDao.insertSongs(songsToInsert)
-            }
-
-            // 5. Trigger Download Worker disabled for pure cloud streaming playback
-            // (no files saved to local storage)
 
             return Result.success()
         } catch (e: Exception) {
